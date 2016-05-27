@@ -126,6 +126,7 @@ public class Learner {
      * @return keyWord - first 2 symbols of word
      */
     public static String getKeyWord(String currentWord) {
-        return (currentWord.length() > 1) ? currentWord.substring(0, 2) : currentWord;
+//        return (currentWord.length() > 1) ? currentWord.substring(0, 2) : currentWord;
+        return (currentWord.length() > 2) ? currentWord.substring(0, 3) : currentWord;
     }
 }

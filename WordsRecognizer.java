@@ -49,6 +49,7 @@ public class WordsRecognizer {
             if(!trueLettersProbability.get(key).containsKey(letter)){
                 return false;
             }
+//            probabilityThaItIsWord = probabilityThaItIsWord + letterAmount + ((double) trueLettersProbability.get(key).get(letter) /10 );
             probabilityThaItIsWord = probabilityThaItIsWord * letterAmount * ((double) trueLettersProbability.get(key).get(letter) /10 );
         }
 

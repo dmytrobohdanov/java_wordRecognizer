@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class StatKeeper {
-    public static final int ACCURACY = 300;
+    public static final int ACCURACY = 1000;
     public HashMap<Character, Integer> statistic;
     public Integer totalLettersNumber;
 
